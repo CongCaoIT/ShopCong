@@ -1,0 +1,143 @@
+.register {
+    width: 500px;
+}
+
+.register-container {
+    padding: 0 32px;
+}
+
+.register-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+}
+
+.register-heading {
+    font-size: 2.4rem;
+    color: var(--text-color);
+}
+
+.register-switch {
+    font-size: 1.6rem;
+    color: var(--primary-color);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.register-switch .register-switch-a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.register-form-input {
+    width: 100%;
+    height: 40px;
+    margin: 8px 0;
+    font-size: 1.4rem;
+    padding: 0 12px;
+    border: 2px solid #bdbdbd;
+    border-radius: 2px;
+    outline: none;
+}
+
+.register-form-input:focus {
+    border-color: #777;
+}
+
+.agree {
+    margin-top: 20px;
+}
+
+.agree-text {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    text-align: center;
+}
+
+.agree-link {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.controls {
+    margin-top: 36px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 12px;
+}
+
+.controls-a {
+    text-decoration: none;
+    color: var(--while-color);
+}
+
+.back {
+    margin-right: 8px;
+}
+
+.socials {
+    background-color: #f5f5f5;
+    padding: 12px 32px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.socials-icon {
+    margin-right: 32px;
+    margin-left: 12px;
+    font-size: 1.8rem;
+}
+
+.socials-icon-facebook {
+    background-color: #3a5a98;
+    color: #fff;
+}
+
+.socials-icon-google {
+    background-color: #d2d2d2;
+    color: #000;
+}
+
+.icon-group-a {
+    font-size: 1.2rem;
+    margin-right: 28px;
+    color: #fff;
+}
+
+.icon-group-b {
+    font-size: 1.2rem;
+    margin-right: 28px;
+    color: #000;
+}
+
+/* Login form */
+.agree-help {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.agree-help-link {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #939393;
+}
+
+.agree-help-sperate {
+    display: flex;
+    height: 20px;
+    border: 0.5px solid #ebebeb;
+    margin-top: 0;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 8px;
+}
+
+.forgot {
+    color: var(--primary-color);
+}
+
+.span-content {
+    font-size: 1.6rem;
+}
